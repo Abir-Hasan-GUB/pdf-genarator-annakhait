@@ -76,7 +76,31 @@ body {
 }
 
 .firstPage .header .logo {
-  width: 15rem;
+  width: 12rem;
+}
+
+.logoAndDownloadBtn {
+  text-align: right;
+}
+
+.downloadPdf {
+  border: none;
+  box-shadow: none;
+  background: #318CDD;
+  color: #fff;
+  font-size: 1rem;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: .5rem;
+  -webkit-border-radius: .5rem;
+  -moz-border-radius: .5rem;
+  -ms-border-radius: .5rem;
+  -o-border-radius: .5rem;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
 }
 
 .sectionTitle {
@@ -120,7 +144,7 @@ body {
 }
 
 .singleInfo {
-  margin-bottom: .5rem;
+  margin-bottom: .45rem;
 }
 
 .singleInfo .title {
@@ -280,6 +304,18 @@ body {
 
 .step_4 .aggrimentDetails {
   font-size: 1.3rem;
+}
+
+.sponsorName,
+.sponsorNumber {
+  font-weight: 700;
+  display: inline-block;
+  text-align: center;
+  padding-left: 4rem;
+}
+
+.sponsorNumber {
+  padding-left: 7rem;
 }
 
 .signatrueAndDate {
